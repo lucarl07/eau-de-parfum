@@ -86,6 +86,7 @@ p, span {
     border: none;
     border-radius: 12px;
     background-color: var(--dark-cyan);
+    transition: 0.1s;
 }
 .product-card .contents .add-to-cart .image img {
     width: 20px; height: 20px;
@@ -98,4 +99,15 @@ p, span {
     font-size: 16px;
     font-weight: 700;
     color: var(--white);
+}
+
+.product-card .contents .add-to-cart:hover {
+    background-color: hsl(158, 35%, 30%);
+}
+.product-card .contents .add-to-cart:hover .text {
+    text-decoration: underline;
+}
+
+.product-card .contents .add-to-cart:active {
+    background-color: hsl(88, 35%, 30%);
 }
