@@ -49,7 +49,7 @@ p, span {
 
 .product-card .contents .type {
     display: inline-block;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
     font-size: 1rem;
     letter-spacing: 4px;
 }
@@ -61,6 +61,8 @@ p, span {
 }
 .product-card .contents .description {
     margin: 1rem 0;
+    line-height: 20px;
+    letter-spacing: 1px;
 }
 
 .product-card .contents .price {
@@ -79,10 +81,8 @@ p, span {
 }
 
 .product-card .contents .add-to-cart {
-    /* display: flex; */
     width: 100%;
     height: 15%;
-    /* justify-content: space-between; */
     border: none;
     border-radius: 12px;
     background-color: var(--dark-cyan);
